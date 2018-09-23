@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "gulp"
+    "start": "gulp",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Harry Le",
   "license": "ISC",
