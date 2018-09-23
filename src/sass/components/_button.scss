@@ -1,0 +1,39 @@
+.btn-trans {
+  border: 2px solid;
+  padding: 1rem 2rem;
+  border-radius: 150rem;
+  color: #fff;
+  background: transparent;
+  transition: 0.2s;
+
+  &:hover {
+    border: 2px solid #fff;
+    color: $grey3;
+    background: #fff;
+  }
+}
+
+.btn-green {
+  padding: 1rem 2rem;
+  border-radius: 150rem;
+  color: #fff;
+  background: $green1;
+  transition: 0.2s;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.btn-grey {
+  padding: 1rem 2rem;
+  border-radius: 150rem;
+  color: #fff;
+  background: $grey3;
+  transition: 0.2s;
+
+  &:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+}

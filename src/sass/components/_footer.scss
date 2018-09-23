@@ -1,0 +1,36 @@
+.footer {
+  background: $grey4;
+  color: $grey1;
+  height: 20rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  line-height: 1.8;
+
+  &-text {
+    letter-spacing: 1.2px;
+    * {
+      margin-right: 1.5rem;
+    }
+  }
+
+  &-author {
+    font-family: "Noto Serif JP", serif;
+    color: $grey0;
+    font-weight: 700;
+    font-size: 1.4rem;
+
+    a {
+      color: $grey0;
+      text-decoration: none;
+      border-bottom: 1px solid;
+      padding-bottom: 1.5px;
+      &:hover {
+        opacity: 0.9;
+      }
+    }
+  }
+}

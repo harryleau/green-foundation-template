@@ -1,0 +1,54 @@
+.contact-heading {
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  color: $grey2;
+  font-family: "Lato", "Helvetica", serif;
+  letter-spacing: 2px;
+}
+
+.contact-header {
+  background: url("/img/contact-header.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.contact-map {
+  width: 65rem;
+  height: 50rem;
+  margin: 5rem 0;
+
+  @media only screen and (max-width: 900px) {
+    width: 45rem;
+    height: 40rem;
+  }
+
+  @media only screen and (max-width: 500px) {
+    width: 36rem;
+    height: 36rem;
+  }
+
+  @media only screen and (max-width: 400px) {
+    width: 32rem;
+    height: 32rem;
+  }
+}
+
+.contact-info {
+  color: $grey2;
+  line-height: 1.8;
+}
+
+.contact-email {
+  margin-top: 7rem;
+  margin-bottom: 3rem;
+  line-height: 1.8;
+  color: $grey2;
+
+  h6 {
+    padding-bottom: 2rem;
+  }
+
+  &-address {
+    color: $green3;
+  }
+}

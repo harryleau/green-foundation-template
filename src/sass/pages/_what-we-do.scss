@@ -1,0 +1,92 @@
+.wwd-header {
+  background: url("/img/wwd-header.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+.wwd-content {
+  &__credit {
+    color: $grey2;
+    font-style: italic;
+    font-family: serif;
+    margin-bottom: 3rem;
+
+    a {
+      color: $green2;
+      text-decoration: none;
+    }
+  }
+
+  &__intro {
+    font-size: 2.5rem;
+  }
+
+  &__mission {
+    margin-top: 5rem;
+    margin-bottom: 7rem;
+    color: $grey2;
+  }
+
+  &__heading {
+    font-size: 2.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: "Lato", "Helvetica", serif;
+    padding: 2rem 0;
+  }
+
+  &__mission-text {
+    font-size: 1.4rem;
+    line-height: 1.8;
+    letter-spacing: 1.2px;
+  }
+
+  &__quote {
+    border-top: 1px solid $grey1;
+    border-bottom: 1px solid $grey1;
+    padding: 5rem 2rem 8rem 2rem;
+    text-align: center;
+    margin: 5rem 0;
+  }
+
+  &__quote-icon {
+    height: 2rem;
+    margin-top: 2.5rem;
+  }
+
+  &__quote-text {
+    line-height: 2;
+    margin: 2rem 0;
+    font-size: 1.5rem;
+  }
+
+  &__quote-author {
+    color: $grey1;
+    font-size: 1.5rem;
+  }
+
+  &__achievements {
+    margin-bottom: 3rem;
+    color: $grey2;
+
+    &-list {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 2rem;
+      margin-left: 4rem;
+    }
+
+    &-item {
+      width: 50%;
+      padding-right: 5rem;
+      font-size: 1.5rem;
+      line-height: 1.8;
+      margin-bottom: 1rem;
+
+      @media only screen and (max-width: 450px) {
+        width: 100%;
+      }
+    }
+  }
+}

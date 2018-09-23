@@ -1,0 +1,227 @@
+.news-header {
+  background: url("/img/post3-header.jpg");
+  background-size: cover;
+  background-position: center center;
+  transition: all 0.2s;
+}
+
+.news-header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+.news-header__icon {
+  width: 10%;
+  text-align: center;
+  font-size: 5rem;
+  padding: 5rem 0;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.news-link {
+  width: 65%;
+  padding: 5rem 0;
+  text-decoration: none;
+  color: #fff;
+
+  .news-date,
+  p {
+    font-family: serif;
+    font-style: italic;
+    font-size: 2.2rem;
+    letter-spacing: 1.6px;
+    font-weight: 700;
+  }
+
+  .news-info {
+    text-align: center;
+  }
+
+  .news-title {
+    margin: 2rem 0;
+    font-size: 6rem;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-family: "Lato", "Helvetica", serif;
+    font-weight: 700;
+  }
+
+  &__icon {
+    font-size: 1.6rem;
+  }
+}
+
+.news-container {
+  max-width: 75rem;
+  margin: 0 auto;
+  padding: 5rem 2rem 0 2rem;
+}
+
+.post {
+  font-family: "Noto Serif JP", "Lato", "Helvetica", serif;
+  color: $grey2;
+  padding: 3rem 0;
+
+  &-date {
+    color: darken($grey1, 5%);
+    font-weight: 300;
+    font-size: 1.5rem;
+  }
+
+  &-title {
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin-top: 1.5rem;
+    margin-bottom: 3.5rem;
+    color: $grey3;
+  }
+
+  &-link {
+    text-decoration: none;
+    display: block;
+  }
+
+  &-img {
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+  }
+
+  &-body {
+    line-height: 1.8;
+    margin-bottom: 2rem;
+  }
+}
+
+.post3-header {
+  background: url("/img/post3-header.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.post2-header {
+  background: url("/img/post2-header.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.reactions {
+  margin-bottom: 5rem;
+
+  &-item {
+    margin-right: 2rem;
+    text-decoration: none;
+    color: darken($grey1, 5%);
+    font-family: serif;
+
+    * {
+      margin-right: 0.2rem;
+    }
+  }
+}
+
+.comments {
+  display: flex;
+  flex-direction: column;
+  font-family: "Noto Serif JP", "Lato", "Helvetica", serif;
+  color: $grey2;
+
+  &-actions {
+    display: flex;
+    justify-content: space-between;
+
+    &__right {
+      display: flex;
+    }
+  }
+
+  &-label {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  &-filter {
+    margin-right: 1.5rem;
+  }
+
+  &-filter,
+  &-subs {
+    text-decoration: none;
+    color: $grey2;
+    font-size: 1.5rem;
+  }
+
+  &-box {
+    width: 100%;
+    height: 20rem;
+    border: 1px solid $grey1;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-bottom: 1rem;
+  }
+
+  &-submit {
+    display: flex;
+    align-items: center;
+  }
+
+  &-prev {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: $grey2;
+    margin-right: 1rem;
+  }
+
+  &-res {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 0;
+    margin-right: 1rem;
+    letter-spacing: 2px;
+    padding: 1.2rem 2rem;
+  }
+}
+
+.related-posts {
+  margin: 10rem 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  font-family: "Noto Serif JP", "Lato", "Helvetica", serif;
+
+  @media only screen and (max-width: 600px) {
+    flex-direction: column;
+  }
+
+  &__item:last-of-type {
+    text-align: right;
+
+    @media only screen and (max-width: 600px) {
+      margin-top: 2rem;
+    }
+  }
+
+  &__label {
+    color: $grey2;
+    margin-bottom: 0.8rem;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: $green2;
+  }
+}
