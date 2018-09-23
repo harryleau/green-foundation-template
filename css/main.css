@@ -331,7 +331,7 @@ body {
         opacity: 0.9; }
 
 .home-header {
-  background: url("/img/home-header.jpg");
+  background: url("img/home-header.jpg");
   background-position: center center;
   background-size: cover;
   height: 55rem;
@@ -446,7 +446,7 @@ body {
     order: 4; } }
 
 .wwd-header {
-  background: url("/img/wwd-header.jpg");
+  background: url("img/wwd-header.jpg");
   background-position: center center;
   background-size: cover; }
 
@@ -519,7 +519,7 @@ body {
         width: 100%; } }
 
 .projects-header {
-  background: url("/img/projects-header.jpg");
+  background: url("img/projects-header.jpg");
   background-size: cover;
   background-position: center center; }
 
@@ -556,7 +556,7 @@ body {
   line-height: 1.8; }
 
 .partners-header {
-  background: url("/img/partners-header.jpg");
+  background: url("img/partners-header.jpg");
   background-size: cover;
   background-position: center center; }
 
@@ -646,7 +646,7 @@ body {
   letter-spacing: 2px; }
 
 .contact-header {
-  background: url("/img/contact-header.jpg");
+  background: url("img/contact-header.jpg");
   background-size: cover;
   background-position: center center; }
 
@@ -682,7 +682,7 @@ body {
     color: #00746b; }
 
 .action-header {
-  background: url("/img/action-header.jpg");
+  background: url("img/action-header.jpg");
   background-position: center center;
   background-size: cover; }
 
@@ -743,7 +743,7 @@ body {
   padding: 1.8rem 3rem; }
 
 .news-header {
-  background: url("/img/post3-header.jpg");
+  background: url("img/post3-header.jpg");
   background-size: cover;
   background-position: center center;
   transition: all 0.2s; }
